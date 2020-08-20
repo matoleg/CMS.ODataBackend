@@ -8,9 +8,9 @@ CREATE TABLE [Resource] (
 
 	 [Name] VARCHAR(255)  NULL,
 
-	 [Link] VARCHAR(255)  NULL,
-
 	 [Description] VARCHAR(255)  NULL,
+
+	 [Link] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 

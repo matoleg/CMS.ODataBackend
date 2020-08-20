@@ -30,8 +30,8 @@ namespace IIS.CMS
     [Caption("Competence resource")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("CompetenceResourceE", new string[] {
-            "Level as \'Level\'",
-            "Resource as \'Resource\'",
+            "Level as \'Уровень владения\'",
+            "Resource as \'Ресурс\'",
             "Resource.Name as \'Name\'"}, Hidden=new string[] {
             "Resource.Name"})]
     [MasterViewDefineAttribute("CompetenceResourceE", "Resource", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Name")]

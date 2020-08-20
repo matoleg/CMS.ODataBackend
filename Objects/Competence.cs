@@ -29,8 +29,8 @@ namespace IIS.CMS
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("CompetenceE", new string[] {
-            "Name as \'Name\'"})]
-    [AssociatedDetailViewAttribute("CompetenceE", "CompetenceResource", "CompetenceResourceE", true, "", "Competence resource", true, new string[] {
+            "Name as \'Наименование\'"})]
+    [AssociatedDetailViewAttribute("CompetenceE", "CompetenceResource", "CompetenceResourceE", true, "", "Ресурсы для изучения", true, new string[] {
             ""})]
     [View("CompetenceL", new string[] {
             "Name as \'Name\'"})]

@@ -27,6 +27,7 @@ namespace IIS.CMS
 
     //  *** End programmer edit section *** (Resource CustomAttributes)
     [AutoAltered()]
+    [Caption("Ресурс")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ResourceE", new string[] {
             "Name as \'Name\'",
@@ -41,9 +42,9 @@ namespace IIS.CMS
         
         private string fName;
         
-        private string fDescription;
-        
         private string fLink;
+        
+        private string fDescription;
         
         //  *** Start programmer edit section *** (Resource CustomMembers)
 
@@ -83,38 +84,6 @@ namespace IIS.CMS
         }
         
         /// <summary>
-        /// Description.
-        /// </summary>
-        //  *** Start programmer edit section *** (Resource.Description CustomAttributes)
-
-        //  *** End programmer edit section *** (Resource.Description CustomAttributes)
-        [StrLen(255)]
-        public virtual string Description
-        {
-            get
-            {
-                //  *** Start programmer edit section *** (Resource.Description Get start)
-
-                //  *** End programmer edit section *** (Resource.Description Get start)
-                string result = this.fDescription;
-                //  *** Start programmer edit section *** (Resource.Description Get end)
-
-                //  *** End programmer edit section *** (Resource.Description Get end)
-                return result;
-            }
-            set
-            {
-                //  *** Start programmer edit section *** (Resource.Description Set start)
-
-                //  *** End programmer edit section *** (Resource.Description Set start)
-                this.fDescription = value;
-                //  *** Start programmer edit section *** (Resource.Description Set end)
-
-                //  *** End programmer edit section *** (Resource.Description Set end)
-            }
-        }
-        
-        /// <summary>
         /// Link.
         /// </summary>
         //  *** Start programmer edit section *** (Resource.Link CustomAttributes)
@@ -143,6 +112,38 @@ namespace IIS.CMS
                 //  *** Start programmer edit section *** (Resource.Link Set end)
 
                 //  *** End programmer edit section *** (Resource.Link Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Description.
+        /// </summary>
+        //  *** Start programmer edit section *** (Resource.Description CustomAttributes)
+
+        //  *** End programmer edit section *** (Resource.Description CustomAttributes)
+        [StrLen(255)]
+        public virtual string Description
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (Resource.Description Get start)
+
+                //  *** End programmer edit section *** (Resource.Description Get start)
+                string result = this.fDescription;
+                //  *** Start programmer edit section *** (Resource.Description Get end)
+
+                //  *** End programmer edit section *** (Resource.Description Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (Resource.Description Set start)
+
+                //  *** End programmer edit section *** (Resource.Description Set start)
+                this.fDescription = value;
+                //  *** Start programmer edit section *** (Resource.Description Set end)
+
+                //  *** End programmer edit section *** (Resource.Description Set end)
             }
         }
         
